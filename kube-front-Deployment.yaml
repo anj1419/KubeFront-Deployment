@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: kube-front-container
-        image: kube-front-image
+        image: anj1419/kube-front-deployment:kube
         ports:
         - containerPort: 80
         resources:
